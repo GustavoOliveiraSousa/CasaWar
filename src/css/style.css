@@ -227,34 +227,6 @@ ol {
 }
 
 
-@media screen and (min-width: 1749px) and (max-width: 1749px) {
-
-    html {
-        font-size: 1rem;
-    }
-
-    header .margem-nav {
-        margin-top: -30px;
-    }
-
-    .card-body .margem-produto {
-        min-height: 150px;
-    }
-
-    .row .card-body {
-        min-height: 200px;
-        justify-content: center;
-    }
-
-    .card-body .card-subtitle {
-        margin-top: 50px;
-    }
-
-    .card-body .justify {
-        min-height: 175px;
-    }
-}
-
 @media screen and (min-width: 1749px) {
 
     html {
@@ -545,8 +517,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 794px) and (max-width: 836px) {
-
+@media screen and (min-width: 826px) and (max-width: 836px) {
     html {
         font-size: 0.9rem;
     }
@@ -581,7 +552,7 @@ ol {
     }
 
     .card-body .justify {
-        min-height: 300x;
+        min-height: 300px;
     }
 
     .card-body .espaco-colaboradores {
@@ -597,6 +568,10 @@ ol {
     }
 
     .card-body .margem-iconesG {
+        margin-top: 60px;
+    }
+
+    .card-body .margem-iconesL {
         margin-top: 45px;
     }
 
@@ -613,7 +588,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 774px) and (max-width: 794px) {
+@media screen and (min-width: 794px) and (max-width: 825px) {
 
     html {
         font-size: 0.9rem;
@@ -661,15 +636,11 @@ ol {
     }
 
     .card-body .margem-icones {
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .card-body .margem-iconesG {
-        margin-bottom: 0px;
-    }
-
-    .card-body .margem-iconesW {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .card-footer div a img {
@@ -685,7 +656,87 @@ ol {
     }
 }
 
-@media screen and (min-width: 678px) and (max-width: 774px) {
+@media screen and (min-width: 768px) and (max-width: 794px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 400px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-top: 50px;
+    }
+
+    .card-body .margem-iconesW {
+        margin-top: 0px;
+    }
+
+    .card-body .margem-iconesF {
+        margin-bottom: 5px;
+    }
+
+    .card-body .margem-iconesL {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 27px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 678px) and (max-width: 767px) {
 
     html {
         font-size: 0.9rem;
@@ -729,7 +780,7 @@ ol {
     }
 
     .card-body .espaco-colaboradoresG {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .card-body .margem-icones {
@@ -737,6 +788,10 @@ ol {
     }
 
     .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesF {
         margin-bottom: 0px;
     }
 
@@ -753,8 +808,7 @@ ol {
     }
 }
 
-
-@media screen and (min-width: 575px) and (max-width: 678px) {
+@media screen and (min-width: 576px) and (max-width: 678px) {
 
     html {
         font-size: 1.7rem;
@@ -845,7 +899,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 350px) and (max-width: 575px) {
+@media screen and (min-width: 384px) and (max-width: 575px) {
 
     html {
         font-size: 1rem;
@@ -890,7 +944,7 @@ ol {
     }
 
     .card-body .justify {
-        min-height: 100px;
+        min-height: 150px;
     }
 
 
@@ -906,8 +960,8 @@ ol {
         width: 35px;
     }
 
-    .card-body .espaco-colaboradoresG {
-        margin-bottom: 5px;
+    .card .card-body .espaco-colaboradoresG {
+        margin-bottom: 20px;
     }
 
     .card-body .espaco-colaboradores {
@@ -934,7 +988,7 @@ ol {
 
 }
 
-@media screen and (min-width: 280px) and (max-width: 350px) {
+@media screen and (min-width: 280px) and (max-width: 383px) {
 
     html {
         font-size: 1rem;
@@ -996,7 +1050,7 @@ ol {
     }
 
     .card-body .espaco-colaboradoresG {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 
     .card-body .espaco-colaboradores {
@@ -1203,7 +1257,7 @@ ol {
 
     html {
         font-size: 1rem;
-        width: 600% !important;
+        width: 500% !important;
     }
 
     header .margem-nav {
