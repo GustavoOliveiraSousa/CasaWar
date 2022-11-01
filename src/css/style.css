@@ -227,7 +227,7 @@ ol {
 }
 
 
-@media screen and (min-width: 1749px) {
+@media screen and (min-width: 1761px) {
 
     html {
         font-size: 1rem;
@@ -263,7 +263,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 1305px) and (max-width: 1749px) {
+@media screen and (min-width: 1307px) and (max-width: 1750px) {
 
     html {
         font-size: 1rem;
@@ -299,7 +299,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 1166px) and (max-width: 1305px) {
+@media screen and (min-width: 1168px) and (max-width: 1306px) {
 
     html {
         font-size: 1rem;
@@ -335,7 +335,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 1084px) and (max-width: 1166px) {
+@media screen and (min-width: 1086px) and (max-width: 1167px) {
 
     html {
         font-size: 1rem;
@@ -372,7 +372,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1084px) {
+@media screen and (min-width: 994px) and (max-width: 1085px) {
 
     html {
         font-size: 1rem;
@@ -413,7 +413,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 864px) and (max-width: 992px) {
+@media screen and (min-width: 866px) and (max-width: 993px) {
 
     html {
         font-size: 0.9rem;
@@ -457,7 +457,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 836px) and (max-width: 864px) {
+@media screen and (min-width: 838px) and (max-width: 865px) {
 
     html {
         font-size: 0.9rem;
@@ -517,7 +517,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 826px) and (max-width: 836px) {
+@media screen and (min-width: 827px) and (max-width: 837px) {
     html {
         font-size: 0.9rem;
     }
@@ -588,7 +588,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 794px) and (max-width: 825px) {
+@media screen and (min-width: 795px) and (max-width: 826px) {
 
     html {
         font-size: 0.9rem;
@@ -712,11 +712,11 @@ ol {
     }
 
     .card-body .margem-iconesW {
-        margin-top: 0px;
+        margin-top: 30px;
     }
 
     .card-body .margem-iconesF {
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .card-body .margem-iconesL {
