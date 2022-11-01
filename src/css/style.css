@@ -5,6 +5,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 100%;
 }
 
 
@@ -756,21 +757,38 @@ ol {
 @media screen and (min-width: 575px) and (max-width: 678px) {
 
     html {
-        font-size: 0.9rem;
-        width: 100% !important;
-        margin: 20px auto;
+        font-size: 1.7rem;
+        width: 200% !important;
     }
 
+
     header .margem-nav {
-        margin-top: 75px;
+        margin-top: 120px;
     }
 
     div div .text-start p {
         display: none;
     }
 
+    s,
+    span {
+        font-size: 30px;
+    }
+
+    .justify-content-center .text-start .precoMais {
+        font-size: 30px;
+    }
+
+    .justify-content-center .text-start .preco-mil {
+        font-size: 30px;
+    }
+
+    .justify-content-center .text-start .negrito {
+        font-size: 30px;
+    }
+
     .card-body .margem-produto {
-        min-height: 145px;
+        min-height: 200px;
     }
 
     .img-sobre-nos {
@@ -811,7 +829,7 @@ ol {
     }
 
     .card-footer div a img {
-        width: 35px;
+        width: 50px;
     }
 
     .social-inner img {
@@ -823,16 +841,15 @@ ol {
     }
 
     span .btn-pesquisa {
-        width: 60px;
+        width: 100px;
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 350px) and (max-width: 575px) {
 
     html {
-        font-size: 0.7rem;
-        width: 125% !important;
-        margin: 20px auto;
+        font-size: 1rem;
+        width: 200% !important;
     }
 
     .d-inline-block h6 {
@@ -915,4 +932,356 @@ ol {
     }
 
 
+}
+
+@media screen and (min-width: 280px) and (max-width: 350px) {
+
+    html {
+        font-size: 1rem;
+        width: 250% !important;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    .mt-5 .carousel {
+        display: none;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 100px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 100px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 50px;
+    }
+
+
+}
+
+@media screen and (min-width: 228px) and (max-width: 280px) {
+
+    html {
+        font-size: 1rem;
+        width: 300% !important;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 100px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 100px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 50px;
+    }
+
+
+}
+
+@media screen and (min-width: 166px) and (max-width: 228px) {
+
+    html {
+        font-size: 1rem;
+        width: 400% !important;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 100px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 100px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 65px;
+    }
+}
+
+@media screen and (max-width: 166px) {
+
+    html {
+        font-size: 1rem;
+        width: 600% !important;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 150px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 200px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 65px;
+    }
 }
