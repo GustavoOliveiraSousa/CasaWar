@@ -1,0 +1,918 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("../../assets/img/background/waves.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+s,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    color: white;
+}
+
+span {
+    font-size: small;
+}
+
+.borda:hover {
+    /* border: 5px solid #7fff00; */
+    /* box-shadow: 0px 0px 20px #7fff00; */
+    border: #ff7301 3px solid;
+    border-radius: 15px;
+    box-shadow: inset 0 0 25px #ff7301, 0 0 25px 0 #ff7301;
+    /* width: 102%; */
+    transform: scale(1.05);
+    font-size: 15.5px;
+}
+
+body .margem-nav {
+    margin-top: 120px;
+}
+
+.col .borda .card {
+    border-radius: 15px;
+}
+
+.borda-imagem {
+    border-radius: 15px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #ff7301;
+}
+
+.precoMais {
+    font-size: 20px;
+    color: #7fff00;
+}
+
+.frete {
+    color: #ff7301;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.card-body>hr {
+    color: white;
+}
+
+.col>.borda>.card {
+    background-color: black;
+}
+
+.navbar-nav>.nav-item>a {
+    color: white;
+}
+
+.carousel-inner>.carousel-item>img {
+    margin: auto;
+}
+
+.modal-header h1 {
+    color: black;
+}
+
+.col h2 {
+    color: #7fff00;
+}
+
+.neon {
+    line-height: 2;
+    color: #ff7301;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+.neon-white {
+    line-height: 2;
+    color: #fcfcfc;
+    animation: neon-white 3s ease-in-out infinite alternate;
+}
+
+.blur {
+    background-color: #001220;
+    opacity: 99%;
+    box-shadow: 5px 5px 5px #ff7301;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.inversor {
+    filter: invert(100%);
+}
+
+.card-footer .d-inline-block a {
+    color: transparent;
+}
+
+.card-subtitle {
+    font-weight: 900;
+}
+
+.btn-pesquisa {
+    width: 65px;
+
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #ff7301,
+            0 0 40px #f43f00,
+            0 0 55px #ff5101;
+    }
+}
+
+@keyframes neon-white {
+    from {
+        text-shadow: 0 0 35px white,
+            0 0 40px whitesmoke,
+            0 0 55px wheat;
+    }
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ff7301;
+    border-radius: 20px;
+    border: 3px solid #f24f00;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+@media screen and (min-width: 1749px) and (max-width: 1749px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -30px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 150px;
+    }
+
+    .row .card-body {
+        min-height: 200px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 50px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+}
+
+@media screen and (min-width: 1749px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -40px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 130px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 200px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 50px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+}
+
+@media screen and (min-width: 1305px) and (max-width: 1749px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -30px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 130px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 200px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 50px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+}
+
+@media screen and (min-width: 1166px) and (max-width: 1305px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -25px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 130px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 75px;
+    }
+
+    .card-body .justify {
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1166px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: -25px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+        margin: auto;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 235px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1084px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    header .margem-nav {
+        margin-top: 0px;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 150px;
+        margin: auto;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 75px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 250px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 864px) and (max-width: 992px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 250px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 836px) and (max-width: 864px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 30px;
+    }
+
+    .card-footer div a img {
+        width: 30px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 794px) and (max-width: 836px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300x;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 20px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-top: 45px;
+    }
+
+    .card-footer div a img {
+        width: 27px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 774px) and (max-width: 794px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 140px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 300px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesW {
+        margin-top: 50px;
+    }
+
+    .card-footer div a img {
+        width: 27px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 678px) and (max-width: 774px) {
+
+    html {
+        font-size: 0.9rem;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 150px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 150px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 678px) {
+
+    html {
+        font-size: 0.9rem;
+        width: 100% !important;
+        margin: 20px auto;
+    }
+
+    header .margem-nav {
+        margin-top: 75px;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 145px;
+    }
+
+    .img-sobre-nos {
+        width: 125px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 175px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 10px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .social-inner img {
+        width: 35px;
+    }
+
+    .preco-mil {
+        font-size: 18px;
+    }
+
+    span .btn-pesquisa {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    html {
+        font-size: 0.7rem;
+        width: 125% !important;
+        margin: 20px auto;
+    }
+
+    .d-inline-block h6 {
+        display: none;
+    }
+
+    div .form-control {
+        width: 25px;
+    }
+
+    .mt-5 .carousel {
+        display: none;
+    }
+
+    div div .text-start p {
+        display: none;
+    }
+
+    .card-body .margem-produto {
+        min-height: 100px;
+    }
+
+    .img-sobre-nos {
+        width: 100px;
+    }
+
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
+
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    .card-body .justify {
+        min-height: 100px;
+    }
+
+
+    .card-body .margem-icones {
+        margin-bottom: 0px;
+    }
+
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    .card-footer div a img {
+        width: 35px;
+    }
+
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 5px;
+    }
+
+    .card-body .espaco-colaboradores {
+        margin-bottom: 5px;
+    }
+
+    .social-inner img {
+        width: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .justify-content-center img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span .btn-pesquisa {
+        width: 50px;
+    }
+
+
+}
