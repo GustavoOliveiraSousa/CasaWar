@@ -792,7 +792,7 @@ ol {
 
     html {
         font-size: 1rem;
-        width: 100% !important;
+        width: 110% !important;
     }
 
     p,
@@ -969,7 +969,7 @@ ol {
     }
 
     .img-sobre-nos {
-        width: 100px;
+        width: 50%;
     }
 
     .col-desktop-4 .icone-quem-somos {
