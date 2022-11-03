@@ -222,7 +222,7 @@ ol {
     transition: .22s ease;
 }
 
-/* @media screen and (min-width: 2000px) and (max-width: 2560px) {
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
 
     html {
         font-size: 1rem;
@@ -245,122 +245,122 @@ ol {
             display: none;
         } */
 
-/* margem entre o body da navbar */
-header .margem-nav {
-    margin-top: 0px;
-}
+    /* margem entre o body da navbar */
+    header .margem-nav {
+        margin-top: 0px;
+    }
 
-/* largura do botão de pesquisa */
-span .btn-pesquisa {
-    width: 65px;
-}
+    /* largura do botão de pesquisa */
+    span .btn-pesquisa {
+        width: 65px;
+    }
 
 
-/* texto laranja na promoção produtos */
-div div .negrito {
-    font-size: 1.5rem;
-}
+    /* texto laranja na promoção produtos */
+    div div .negrito {
+        font-size: 1.5rem;
+    }
 
-/* valor do produto em verde  */
-div div .precoMais {
-    font-size: 1.5rem;
-}
+    /* valor do produto em verde  */
+    div div .precoMais {
+        font-size: 1.5rem;
+    }
 
-/* preços a partir de mil reais */
-.preco-mil {
-    font-size: 18px;
-}
+    /* preços a partir de mil reais */
+    .preco-mil {
+        font-size: 18px;
+    }
 
-/* texto a mais dos produtos */
-/* .d-none-sm {
+    /* texto a mais dos produtos */
+    /* .d-none-sm {
             display: none;
         } */
 
-/* altura da caixa de texto dos produtos */
-.card-body .margem-produto {
-    min-height: 75px;
-}
+    /* altura da caixa de texto dos produtos */
+    .card-body .margem-produto {
+        min-height: 75px;
+    }
 
-/* dody do produto sem os botões */
-.body-card {
-    min-height: 350px;
-}
+    /* dody do produto sem os botões */
+    .body-card {
+        min-height: 350px;
+    }
 
-/* imagem do lado do texto */
-.img-sobre-nos {
-    width: 35%;
-}
+    /* imagem do lado do texto */
+    .img-sobre-nos {
+        width: 35%;
+    }
 
-/* icones de missão, visão e valores */
-.col-desktop-4 .icone-quem-somos {
-    width: 50px;
-}
+    /* icones de missão, visão e valores */
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
 
-/* altura de todos os cards */
-.row .card-body {
-    min-height: 100px;
-    justify-content: center;
-}
+    /* altura de todos os cards */
+    .row .card-body {
+        min-height: 100px;
+        justify-content: center;
+    }
 
-/* frase com o cargo do colaborador */
-.card-body .card-subtitle {
-    margin-top: 25px;
-}
+    /* frase com o cargo do colaborador */
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
 
-/* descrição dos colaboradores */
-.card-body .justify {
-    min-height: 300px;
-}
+    /* descrição dos colaboradores */
+    .card-body .justify {
+        min-height: 300px;
+    }
 
-/* margem entre o nome do colaborador Gustavo com sua descrição */
-.card-body .espaco-colaboradoresG {
-    margin-bottom: 10px;
-}
+    /* margem entre o nome do colaborador Gustavo com sua descrição */
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
 
-/* distancia entre os icones e o cargo do colaborador Gustavo */
-.card-body .margem-iconesG {
-    margin-top: 10px;
-}
+    /* distancia entre os icones e o cargo do colaborador Gustavo */
+    .card-body .margem-iconesG {
+        margin-top: 10px;
+    }
 
-/* margem entre o nome do colaborador William com sua descrição */
-.card-body .espaco-colaboradoresW {
-    margin-bottom: 10px;
-}
+    /* margem entre o nome do colaborador William com sua descrição */
+    .card-body .espaco-colaboradoresW {
+        margin-bottom: 10px;
+    }
 
-/* distancia entre os icones e o cargo do colaborador William */
-.card-body .margem-iconesW {
-    margin-top: 10px;
-}
+    /* distancia entre os icones e o cargo do colaborador William */
+    .card-body .margem-iconesW {
+        margin-top: 10px;
+    }
 
-/* margem entre o nome da colaboradora Fabiola com sua descrição */
-.card-body .espaco-colaboradoresF {
-    margin-bottom: 10px;
-}
+    /* margem entre o nome da colaboradora Fabiola com sua descrição */
+    .card-body .espaco-colaboradoresF {
+        margin-bottom: 10px;
+    }
 
-/* distancia entre os icones e o cargo da colaboradora Fabiola */
-.card-body .margem-iconesF {
-    margin-top: 0px;
-}
+    /* distancia entre os icones e o cargo da colaboradora Fabiola */
+    .card-body .margem-iconesF {
+        margin-top: 0px;
+    }
 
-/* margem entre o nome da colaboradora Lorena com sua descrição */
-.card-body .espaco-colaboradoresL {
-    margin-bottom: 10px;
-}
+    /* margem entre o nome da colaboradora Lorena com sua descrição */
+    .card-body .espaco-colaboradoresL {
+        margin-bottom: 10px;
+    }
 
-/* distancia entre os icones e o cargo da colaboradora Lorena */
-.card-body .margem-iconesL {
-    margin-top: 0px;
-}
+    /* distancia entre os icones e o cargo da colaboradora Lorena */
+    .card-body .margem-iconesL {
+        margin-top: 0px;
+    }
 
-/* redes sociais do colaborador */
-.card-footer div a img {
-    width: 50px;
-}
+    /* redes sociais do colaborador */
+    .card-footer div a img {
+        width: 50px;
+    }
 
-/* redes sociais da empresa */
-.social-inner img {
-    width: 35px;
-}
+    /* redes sociais da empresa */
+    .social-inner img {
+        width: 35px;
+    }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 2000px) {
@@ -1033,7 +1033,11 @@ div div .precoMais {
 
     html {
         font-size: 2rem;
-        width: 350% !important;
+        width: 365% !important;
+    }
+
+    header {
+        font-size: 2rem;
     }
 
     p,
@@ -1170,7 +1174,11 @@ div div .precoMais {
 
     html {
         font-size: 1.5rem;
-        width: 350% !important;
+        width: 400% !important;
+    }
+
+    header {
+        font-size: 2rem;
     }
 
     p,
@@ -1183,6 +1191,11 @@ div div .precoMais {
     div div h6 {
         font-size: 1.5rem;
     }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
 
 
     /* .d-inline-block h6 {
@@ -1302,5 +1315,3 @@ div div .precoMais {
         width: 35px;
     }
 }
-
-*/
