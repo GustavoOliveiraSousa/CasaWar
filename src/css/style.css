@@ -5,7 +5,6 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 100%;
 }
 
 
@@ -933,8 +932,8 @@ ol {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     html {
-        font-size: 1.5rem;
-        width: 300% !important;
+        font-size: 1rem;
+        width: 110% !important;
     }
 
     p,
@@ -1033,8 +1032,8 @@ ol {
 @media screen and (min-width: 400px) and (max-width: 576px) {
 
     html {
-        font-size: 1.5rem;
-        width: 350% !important;
+        font-size: 2rem;
+        width: 360% !important;
     }
 
     p,
@@ -1170,8 +1169,8 @@ ol {
 @media screen and (min-width: 250px) and (max-width: 400px) {
 
     html {
-        font-size: 1.3rem;
-        width: 400% !important;
+        font-size: 1.5rem;
+        width: 350% !important;
     }
 
     p,
