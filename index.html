@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,59 +14,52 @@
 </head>
 
 
-<body class="p-0">
-    <header class="container-fluid text-center g-0 w-100 ">
-        <nav class="navbar navbar-expand-lg fixed-top blur">
+<body class=" w-100 p-0">
+    <header class="container-fluid text-center g-0 ">
+        <nav class="navbar navbar-expand-lg fixed-top blur ">
             <div class="container-fluid d-block ">
-                <div class="d-block w-100 ">
-
-                    <div class="d-flex w-100">
-                        <div class=" d-flex justify-content-between col-10">
-                            <div class="d-inline-flex">
-                                <a class="navbar-brand logo" href="#">
-                                    <img src="./assets/img/logo/logo.png" class="logo" alt="logo" width="50px">
-                                </a>
-                                <div class="d-flex" style="white-space: nowrap ;">
-                                    <div class="d-inline-block">
-                                        <h3 class="my-0 text-start ">Casa War</h3>
-                                        <p class="text-start ">O Arsenal do Gamer</p>
-                                    </div>
+                <div class="d-inline-flex w-100 ">
+                    <div class="d-inline-block">
+                        <div class="d-inline-flex">
+                            <a class="navbar-brand logo" href="#">
+                                <img src="./assets/img/logo/logo.png" class="logo" alt="logo" width="50px">
+                            </a>
+                            <div class="d-flex" style="white-space: nowrap ;">
+                                <div class="d-inline-block">
+                                    <h3 class="my-0 text-start ">Casa War</h3>
+                                    <h6 class="text-start ">O Arsenal do Gamer</h6>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="col-2">
-                            <button class="navbar-toggler collapsed bg-danger" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapsem-auto" id="navbarSupportedContent">
-                                <ul class="navbar-nav text-end ">
-                                    <li class=" nav-item active">
-                                        <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#quem-somos">Quem somos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#nosso-time">Nosso time</a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="d-flex">
-                        <div class="justify-content-center input-group m-auto w-100  mt-3 h-25" id="input-o">
-                            <input type="text" class="form-control form-control-lg form-control-sm h-100"
-                                placeholder="Oi, o que você procura?" aria-label="Procura"
-                                aria-describedby="basic-addon2">
-                            <span id="basic-addon2">
-                                <img class="btn btn-pesquisa" src="./assets/img/icons/searching.png" width="60px"
-                                    alt="Botão de pesquisa">
-                            </span>
+                    <div class="input-group mb-auto w-100 mx-5 h-25 ms-5 me-0" id="input-o">
+                        <input type="text" class="form-control form-control-lg form-control-sm h-100"
+                            placeholder="Oi, o que você procura?" aria-label="Procura" aria-describedby="basic-addon2">
+                        <span id="basic-addon2">
+                            <img class="btn btn-pesquisa" src="./assets/img/icons/searching.png" width="60px"
+                                alt="Botão de pesquisa">
+                        </span>
+                    </div>
+                    <div class="ms-5">
+                        <button class="navbar-toggler collapsed bg-danger mb-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class=" nav-item">
+                                    <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#nosso-time">Nosso time</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -75,7 +68,7 @@
 
         <div class="margem-nav"></div>
 
-        <div class="w-100">
+        <div class="">
             <div class="mt-5 ">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -86,16 +79,20 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/img/carrosel/img1.png" class="d-block w-75" id="img-carrosel" alt="...">
+                            <img src="./assets/img/carrosel/img1.png"
+                                class="d-block w-75 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
                         </div>
                         <div class="carousel-item ">
-                            <img src="./assets/img/carrosel/img2.png" class="d-block w-75" id="img-carrosel" alt="...">
+                            <img src="./assets/img/carrosel/img2.png"
+                                class="d-block w-75 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
                         </div>
                         <div class="carousel-item ">
-                            <img src="./assets/img/carrosel/img3.png" class="d-block w-75" id="img-carrosel" alt="...">
+                            <img src="./assets/img/carrosel/img3.png"
+                                class="d-block w-75 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
                         </div>
                         <div class="carousel-item ">
-                            <img src="./assets/img/carrosel/img4.png" class="d-block w-75" id="img-carrosel" alt="...">
+                            <img src="./assets/img/carrosel/img4.png"
+                                class="d-block w-75 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
                         </div>
                     </div>
                 </div>
@@ -103,7 +100,7 @@
 
             <br>
 
-            <div class="d-inline-flex w-100 ">
+            <div class="d-inline-flex m-auto col-md-12 ">
                 <div class="d-inline-flex ms-2 me-2 container">
                     <div class="me-2">
                         <img src="./assets/img/icons/desconto.svg" alt="">
@@ -144,13 +141,13 @@
         </div>
     </header>
 
-    <section class="container-fluid text-center p-4 g-0 " id="produtos">
+    <header class="container-fluid text-center p-4 g-0 " id="produtos">
         <div>
             <div>
                 <h1 class="text-center neon">Produtos</h1>
             </div>
         </div>
-        <div class=" row row-cols-2 row-cols-md-2 g-4 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-3">
+        <div class=" row row-cols-2 row-cols-md-2 g-4 row-cols-sm-2 row-cols-lg- row-cols-xxl-3">
             <div class="col">
                 <div class="borda">
                     <div class="card h-100 ">
@@ -207,7 +204,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card ">
+                    <div class="card h-100 ">
                         <img src="./assets/img/produtos/carregador-wireless-qi-hyperx-chargeplay-base-hx-cpbs-c_124972-removebg-preview.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -259,7 +256,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img src="./assets/img/produtos/controle-removebg-preview.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title margem-produto">Controle NOX Krom Gaming KEY, PC, PS3, Android, Preto
@@ -309,7 +306,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img src="./assets/img/produtos/norm_1_monitor-gamer-warrior-kaizen-27-ips-144hz-1ms-mn201-removebg-preview.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -359,7 +356,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img src="./assets/img/produtos/QPED89042642000167-SKU-2530-1-removebg-preview.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -409,7 +406,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img src="./assets/img/produtos/teclado-gamer-mecanico-hyperx-alloy-origins-rgb-switch-hyperx-blue-abnt2-black-hx-kb6blx-br_117773-removebg-preview.png"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -460,21 +457,22 @@
                 </div>
             </div>
         </div>
-    </section>
+
+    </header>
 
     <section class="container-fluid text-center g-0" id="quem-somos">
         <header id="header" class="page-quem-somos">
             <div class="container">
                 <div class="row">
-                    <div class="title">
+                    <div class="col col-12 title">
                         <h1 class="neon-white">Quem Somos</h1>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="container-fluid" id="intro">
-            <div class="">
+        <section class="container-fluid w-100 col-12" id="intro">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="d-flex ">
                         <div class="d-flex">
@@ -482,7 +480,7 @@
                                 <img class="img-sobre-nos my-5 mx-0" src="./assets/img/logo/logo.png" width="200px"
                                     alt="">
                             </div>
-                            <div class="col">
+                            <div class="col col-desktop-8 ">
                                 <h2>Sobre Nós</h2>
                                 <p class="justify-content-between justify">A loja CASA WAR é uma empresa inovadora
                                     que
@@ -515,9 +513,9 @@
             </div>
         </section>
         <section class="container-fluid" id="valores">
-            <div class="">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-4">
                         <img class="inversor icone-quem-somos" src="./assets/img/icons/icons8-rocket.gif" width="100px"
                             alt="">
                         <h2>Missão</h2>
@@ -527,7 +525,7 @@
                             e de qualidade.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col col-4">
                         <img class="inversor icone-quem-somos" src="./assets/img/icons/target-unscreen.gif"
                             width="100px" alt="">
                         <h2>Visão</h2>
@@ -536,7 +534,7 @@
                             atendimento do Brasil.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col col-4">
                         <img class="inversor icone-quem-somos" src="./assets/img/icons/icons8-scales-unscreen.gif"
                             width="100px" alt="">
                         <h2>Valores</h2>
@@ -559,7 +557,7 @@
         <div class="row row-cols-2 row-cols-md-2 row-cols-sm-2 row-cols-xl-4 g-4">
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img class="borda-imagem" src="./assets/img/nosso-time/Autor.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -603,7 +601,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img class="borda-imagem" src="./assets/img/nosso-time/homem jovem.jpg" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -640,7 +638,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img class="borda-imagem" src="./assets/img/nosso-time/mulher idosa.jpg" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -679,7 +677,7 @@
             </div>
             <div class="col ">
                 <div class="borda">
-                    <div class="card">
+                    <div class="card h-100 ">
                         <img class="borda-imagem" src="./assets/img/nosso-time/mulher jovem.jpg" class="card-img-top"
                             alt="...">
                         <div class="card-body">
@@ -716,13 +714,14 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <footer class="section footer-classic context-dark bg-image container-fluid" id="rodape"
         style="background: #011d33;">
-        <div class="">
-            <div class="row row-3">
-                <div class="col-sm-3 col-md-4 col-xl-5">
+        <div class="container-fluid">
+            <div class="row row-30">
+                <div class="col-sm-2 col-md-4 col-xl-5">
                     <div class="pr-xl-4">
                         <a class="brand d-inline-flex" href="index.html">
                             <img class="brand-logo-light" src="./assets/img/logo/logo.png" alt="" width="50px"

@@ -5,6 +5,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 100%;
 }
 
 
@@ -791,7 +792,7 @@ ol {
 
     html {
         font-size: 1rem;
-        width: 110% !important;
+        width: 100% !important;
     }
 
     p,
@@ -932,8 +933,8 @@ ol {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     html {
-        font-size: 1rem;
-        width: 110% !important;
+        font-size: 1.5rem;
+        width: 300% !important;
     }
 
     p,
@@ -968,7 +969,7 @@ ol {
     }
 
     .img-sobre-nos {
-        width: 50%;
+        width: 100px;
     }
 
     .col-desktop-4 .icone-quem-somos {
@@ -1032,12 +1033,8 @@ ol {
 @media screen and (min-width: 400px) and (max-width: 576px) {
 
     html {
-        font-size: 2rem;
-        width: 365% !important;
-    }
-
-    header {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        width: 350% !important;
     }
 
     p,
@@ -1173,12 +1170,8 @@ ol {
 @media screen and (min-width: 250px) and (max-width: 400px) {
 
     html {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         width: 400% !important;
-    }
-
-    header {
-        font-size: 2rem;
     }
 
     p,
@@ -1191,11 +1184,6 @@ ol {
     div div h6 {
         font-size: 1.5rem;
     }
-
-    .navbar-brand img {
-        width: 100px;
-    }
-
 
 
     /* .d-inline-block h6 {
