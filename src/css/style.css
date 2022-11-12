@@ -1369,7 +1369,7 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 300px;
+        margin-top: 350px;
     }
 
     /* largura do botão de pesquisa */
@@ -1442,7 +1442,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 1000px;
+        min-height: 800px;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1452,7 +1452,7 @@ ol {
 
     /* distancia entre os icones e o cargo do colaborador Gustavo */
     .card-body .margem-iconesG {
-        margin-top: 105px;
+        margin-top: 0px;
     }
 
     /* margem entre o nome do colaborador William com sua descrição */
@@ -1472,7 +1472,7 @@ ol {
 
     /* distancia entre os icones e o cargo da colaboradora Fabiola */
     .card-body .margem-iconesF {
-        margin-top: 85px;
+        margin-top: 0px;
     }
 
     /* margem entre o nome da colaboradora Lorena com sua descrição */
