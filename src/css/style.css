@@ -388,7 +388,7 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 0px;
+        margin-top: 110px;
     }
 
     /* largura do botão de pesquisa */
@@ -529,7 +529,7 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 0px;
+        margin-top: 120px;
     }
 
     /* largura do botão de pesquisa */
@@ -670,7 +670,7 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 0px;
+        margin-top: 115px;
     }
 
     /* largura do botão de pesquisa */
@@ -960,7 +960,7 @@ ol {
     }
 
     header .margem-nav {
-        margin-top: 75px;
+        margin-top: 130px;
     }
 
     div div .text-start p {
@@ -1116,7 +1116,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 450px;
+        min-height: 300px;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1177,7 +1177,7 @@ ol {
         width: 400% !important;
     }
 
-    ini p,
+    p,
     span,
     s,
     h6 {
@@ -1264,7 +1264,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 800px;
+        min-height: 00px;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1534,7 +1534,7 @@ ol {
 
     /* preços a partir de mil reais */
     .preco-mil {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* texto a mais dos produtos */
