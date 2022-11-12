@@ -26,6 +26,23 @@ span {
     font-size: medium;
 }
 
+#menu {
+    background-color: rgba(0,
+            18,
+            32, 0.2) !important;
+    padding: 1.5rem 1rem;
+    transition: all 500ms linear;
+}
+
+#menu.ativo {
+    background-color: rgba(0, 18, 32, 0.99) !important;
+    padding: .5rem 1rem;
+}
+
+#pesquisa.ativo {
+    display: none;
+}
+
 .borda:hover {
     border: #ff7301 3px solid;
     border-radius: 15px;
@@ -102,7 +119,7 @@ body .margem-nav {
 
 .blur {
     background-color: #001220;
-    opacity: 99%;
+    opacity: 100%;
     box-shadow: 5px 5px 5px #ff7301;
 }
 
@@ -1359,6 +1376,10 @@ ol {
         width: 100px;
     }
 
+    .d-inline-flex.mt-3.m-0.mx-0>a {
+        font-size: 30px;
+    }
+
 
 
     /* texto laranja na promoção produtos */
@@ -1518,6 +1539,10 @@ ol {
 
     .body-card>div.d-flex.justify-content-center.me-5 div.ms-1 span {
         display: none;
+    }
+
+    .d-inline-flex.mt-3.m-0.mx-0>a {
+        font-size: 30px;
     }
 
 
