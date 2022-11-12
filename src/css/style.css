@@ -795,6 +795,10 @@ ol {
         width: 100% !important;
     }
 
+    header nav div div {
+        font-size: 1.5rem;
+    }
+
     p,
     span,
     s,
@@ -933,8 +937,8 @@ ol {
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
     html {
-        font-size: 1.5rem;
-        width: 300% !important;
+        font-size: 1rem;
+        width: 110% !important;
     }
 
     p,
@@ -1033,19 +1037,19 @@ ol {
 @media screen and (min-width: 400px) and (max-width: 576px) {
 
     html {
-        font-size: 1.5rem;
-        width: 350% !important;
+        font-size: 1rem;
+        width: 150% !important;
     }
 
     p,
     span,
     s,
     h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     div div h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -1055,12 +1059,12 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 0px;
+        margin-top: 150px;
     }
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 90px;
+        width: 65px;
     }
 
 
@@ -1167,22 +1171,22 @@ ol {
     }
 }
 
-@media screen and (min-width: 250px) and (max-width: 400px) {
+@media screen and (min-width: 374px) and (max-width: 400px) {
 
     html {
-        font-size: 1.3rem;
+        font-size: 2.5rem;
         width: 400% !important;
     }
 
-    p,
+    ini p,
     span,
     s,
     h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     div div h6 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -1192,13 +1196,18 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 0px;
+        margin-top: 300px;
     }
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 90px;
+        width: 165px;
     }
+
+    .w-100 .img-fluid {
+        width: 100px;
+    }
+
 
 
     /* texto laranja na promoção produtos */
@@ -1209,7 +1218,7 @@ ol {
 
     /* valor do produto em verde  */
     div div .precoMais {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     /* preços a partir de mil reais */
@@ -1224,8 +1233,14 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 140px;
+        min-height: 400px;
     }
+
+    /* Tamanho da fonte de comprar e adicionar ao carrinho  */
+    .card-body div a {
+        font-size: 0.5rem;
+    }
+
 
     /* imagem do lado do texto */
     .img-sobre-nos {
@@ -1239,7 +1254,7 @@ ol {
 
     /* altura de todos os cards */
     .row .card-body {
-        min-height: 100px;
+        min-height: 150px;
         justify-content: center;
     }
 
@@ -1250,7 +1265,319 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 450px;
+        min-height: 800px;
+    }
+
+    /* margem entre o nome do colaborador Gustavo com sua descrição */
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador Gustavo */
+    .card-body .margem-iconesG {
+        margin-top: 0px;
+    }
+
+    /* margem entre o nome do colaborador William com sua descrição */
+    .card-body .espaco-colaboradoresW {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador William */
+    .card-body .margem-iconesW {
+        margin-top: 0px;
+    }
+
+    /* margem entre o nome da colaboradora Fabiola com sua descrição */
+    .card-body .espaco-colaboradoresF {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Fabiola */
+    .card-body .margem-iconesF {
+        margin-top: 0px;
+    }
+
+    /* margem entre o nome da colaboradora Lorena com sua descrição */
+    .card-body .espaco-colaboradoresL {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Lorena */
+    .card-body .margem-iconesL {
+        margin-bottom: 0px;
+    }
+
+    /* redes sociais do colaborador */
+    .card-footer div a img {
+        width: 100px;
+    }
+
+    /* redes sociais da empresa */
+    .social-inner img {
+        width: 100px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 374px) {
+
+    html {
+        font-size: 2.5rem;
+        width: 400% !important;
+    }
+
+    p,
+    span,
+    s,
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    div div h6 {
+        font-size: 1.2rem;
+    }
+
+
+    /* .d-inline-block h6 {
+        display: none;
+    } */
+
+    /* margem entre o body da navbar */
+    header .margem-nav {
+        margin-top: 300px;
+    }
+
+    /* largura do botão de pesquisa */
+    span .btn-pesquisa {
+        width: 165px;
+    }
+
+    .w-100 .img-fluid {
+        width: 100px;
+    }
+
+
+
+    /* texto laranja na promoção produtos */
+    div div .negrito {
+        font-size: 1.5rem;
+    }
+
+
+    /* valor do produto em verde  */
+    div div .precoMais {
+        font-size: 1.2rem;
+    }
+
+    /* preços a partir de mil reais */
+    .preco-mil {
+        font-size: 18px;
+    }
+
+    /* texto a mais dos produtos */
+    /* .d-none-sm {
+        display: none;
+    } */
+
+    /* altura da caixa de texto dos produtos */
+    .card-body .margem-produto {
+        min-height: 400px;
+    }
+
+    /* Tamanho da fonte de comprar e adicionar ao carrinho  */
+    .card-body div a {
+        font-size: 0.5rem;
+    }
+
+
+    /* imagem do lado do texto */
+    .img-sobre-nos {
+        width: 100%;
+    }
+
+    /* icones de missão, visão e valores */
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    /* altura de todos os cards */
+    .row .card-body {
+        min-height: 150px;
+        justify-content: center;
+    }
+
+    /* frase com o cargo do colaborador */
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    /* descrição dos colaboradores */
+    .card-body .justify {
+        min-height: 1000px;
+    }
+
+    /* margem entre o nome do colaborador Gustavo com sua descrição */
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador Gustavo */
+    .card-body .margem-iconesG {
+        margin-top: 105px;
+    }
+
+    /* margem entre o nome do colaborador William com sua descrição */
+    .card-body .espaco-colaboradoresW {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador William */
+    .card-body .margem-iconesW {
+        margin-top: 0px;
+    }
+
+    /* margem entre o nome da colaboradora Fabiola com sua descrição */
+    .card-body .espaco-colaboradoresF {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Fabiola */
+    .card-body .margem-iconesF {
+        margin-top: 85px;
+    }
+
+    /* margem entre o nome da colaboradora Lorena com sua descrição */
+    .card-body .espaco-colaboradoresL {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Lorena */
+    .card-body .margem-iconesL {
+        margin-bottom: 0px;
+    }
+
+    /* redes sociais do colaborador */
+    .card-footer div a img {
+        width: 100px;
+    }
+
+    /* redes sociais da empresa */
+    .social-inner img {
+        width: 100px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 300px) {
+
+    html {
+        font-size: 2.5rem;
+        width: 400% !important;
+    }
+
+    p,
+    span,
+    s,
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    div div h6 {
+        font-size: 1.2rem;
+    }
+
+
+    /* .d-inline-block h6 {
+        display: none;
+    } */
+
+    /* margem entre o body da navbar */
+    header .margem-nav {
+        margin-top: 300px;
+    }
+
+    /* largura do botão de pesquisa */
+    span .btn-pesquisa {
+        width: 165px;
+    }
+
+    .w-100 .img-fluid {
+        width: 100px;
+    }
+
+    /*  resto do texto do produto  */
+    .body-card>div.d-flex.justify-content-center.me-5 img {
+        display: none;
+    }
+
+    .body-card>div.d-flex.justify-content-center.me-5 div.ms-1 span {
+        display: none;
+    }
+
+
+    /* texto laranja na promoção produtos */
+    div div .negrito {
+        font-size: 1.5rem;
+    }
+
+
+    /* valor do produto em verde  */
+    div div .precoMais {
+        font-size: 1.2rem;
+    }
+
+    /* preços a partir de mil reais */
+    .preco-mil {
+        font-size: 18px;
+    }
+
+    /* texto a mais dos produtos */
+    /* .d-none-sm {
+        display: none;
+    } */
+
+    /* altura da caixa de texto dos produtos */
+    .card-body .margem-produto {
+        min-height: 600px;
+    }
+
+    /* Tamanho da fonte de comprar e adicionar ao carrinho  */
+    .card-body div a {
+        font-size: 0.5rem;
+    }
+
+
+    /* imagem do lado do texto */
+    .img-sobre-nos {
+        width: 100%;
+    }
+
+    /* icones de missão, visão e valores */
+    .col-desktop-4 .icone-quem-somos {
+        width: 50px;
+    }
+
+    /* altura de todos os cards */
+    .row .card-body {
+        min-height: 150px;
+        justify-content: center;
+    }
+
+    /* frase com o cargo do colaborador */
+    .card-body .card-subtitle {
+        margin-top: 25px;
+    }
+
+    /* descrição dos colaboradores */
+    .card-body .justify {
+        min-height: 1500px;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1295,11 +1622,15 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50px;
+        width: 100px;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 35px;
+        width: 100px;
+    }
+
+    .logo {
+        width: 100px;
     }
 }

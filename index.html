@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,53 +18,58 @@
     <header class="container-fluid text-center g-0 ">
         <nav class="navbar navbar-expand-lg fixed-top blur ">
             <div class="container-fluid d-block ">
-                <div class="d-inline-flex w-100 ">
-                    <div class="d-inline-block">
-                        <div class="d-inline-flex">
-                            <a class="navbar-brand logo" href="#">
-                                <img src="./assets/img/logo/logo.png" class="logo" alt="logo" width="50px">
-                            </a>
-                            <div class="d-flex" style="white-space: nowrap ;">
-                                <div class="d-inline-block">
-                                    <h3 class="my-0 text-start ">Casa War</h3>
-                                    <h6 class="text-start ">O Arsenal do Gamer</h6>
+                <div class="container-fluid ms-2">
+                    <div class="d-inline-flex w-100 justify-content-between ">
+                        <div class="d-inline-block">
+                            <div class="d-inline-flex">
+                                <a class="navbar-brand logo" href="#">
+                                    <img src="./assets/img/logo/logo.png" class="logo" alt="logo" width="50px">
+                                </a>
+                                <div class="d-flex" style="white-space: nowrap ;">
+                                    <div class="d-inline-block">
+                                        <h3 class="my-0 text-start ">Casa War</h3>
+                                        <h6 class="text-start ">O Arsenal do Gamer</h6>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class=" text-end me-4 col-3 ">
+                            <button class="navbar-toggler collapsed bg-danger mb-3 " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-end me-3 " id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class=" nav-item">
+                                        <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#quem-somos">Quem somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#nosso-time">Nosso time</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="input-group mb-auto w-100 mx-5 h-25 ms-5 me-0" id="input-o">
+                    <div class=" container-fluid input-group mb-auto w-100  h-25 ms-0 me-0 " id="input-o">
                         <input type="text" class="form-control form-control-lg form-control-sm h-100"
                             placeholder="Oi, o que você procura?" aria-label="Procura" aria-describedby="basic-addon2">
-                        <span id="basic-addon2">
+                        <span class="me-2" id="basic-addon2">
                             <img class="btn btn-pesquisa" src="./assets/img/icons/searching.png" width="60px"
                                 alt="Botão de pesquisa">
                         </span>
                     </div>
-                    <div class="ms-5">
-                        <button class="navbar-toggler collapsed bg-danger mb-3" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul class="navbar-nav ">
-                                <li class=" nav-item">
-                                    <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#quem-somos">Quem somos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#nosso-time">Nosso time</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
         </nav>
+
+
 
         <div class="margem-nav"></div>
 
@@ -80,7 +85,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./assets/img/carrosel/img1.png"
-                                class="d-block w-75 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
+                                class="d-block w-100 w-sm-75 w-md-75 w-lg-75 w-xl-75" id="img-carrosel" alt="...">
                         </div>
                         <div class="carousel-item ">
                             <img src="./assets/img/carrosel/img2.png"
@@ -100,45 +105,61 @@
 
             <br>
 
-            <div class="d-inline-flex m-auto col-md-12 ">
-                <div class="d-inline-flex ms-2 me-2 container">
-                    <div class="me-2">
-                        <img src="./assets/img/icons/desconto.svg" alt="">
-                    </div>
-                    <div class="text-start">
-                        <h6>ATÉ 10% DE DESCONTO</h6>
-                        <p>à vista no boleto</p>
-                    </div>
-                </div>
-                <div class="d-flex ms-2 me-2 container">
-                    <div class="me-2">
-                        <img src="./assets/img/icons/frete-1.svg" alt="">
-                    </div>
-                    <div class="text-start">
-                        <h6>COMPRE NO SITE</h6>
-                        <p>e retire na loja</p>
-                    </div>
-                </div>
-                <div class="d-flex ms-2 me-2 container">
-                    <div class="me-2">
-                        <img src="./assets/img/icons/parcelamento.svg" alt="">
-                    </div>
-                    <div class="text-start">
-                        <h6>PARCELE EM ATÉ 12X</h6>
-                        <p>sem juros</p>
-                    </div>
-                </div>
-                <div class="d-flex ms-2 me-2 container">
-                    <div class="me-2">
-                        <img src="./assets/img/icons/seguranca.svg" alt="">
-                    </div>
-                    <div class="text-start">
-                        <h6>LOJA SEGURA</h6>
-                        <p>criptografia SSL 256 bits</p>
+            <div class=""
+                style="  border-style: solid; border-width: 0 0 0px 0; border-color: #eaeaea; background-color: transparent; background-size: cover;  background-position: center center; ">
+                <div class="container">
+                    <div class="section-title row "> </div>
+                    <div class="row justify-content-between align-items-lg-center">
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-between justify-content-lg-center w-100"
+                                href="">
+                                <img loading="lazy" class="img-fluid"
+                                    src="https://cdn.dooca.store/205/files/desconto.svg?v=1580931573" alt="desconto">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h4 style="color: #7fff00;">ATÉ 16% DE DESCONTO</h4>
+                                    <p class="text m-0">à vista no boleto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-between justify-content-lg-center w-100"
+                                href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/parcelamento.svg?v=1580931564"
+                                    alt="parcelamento">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h4 style="color: #7fff00;">PARCELE EM ATÉ 10X</h3>
+                                        <p class="text m-0"> no cartão de crédito</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-between justify-content-lg-center w-100"
+                                href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/seguranca.svg?v=1580931581" alt="seguranca">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h4 style="color: #7fff00;">LOJA SEGURA</h4>
+                                    <p class="text m-0">criptografia SSL 256 bits</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg text-center mb-3 mt-3">
+                            <div class="d-flex align-items-center justify-content-between justify-content-lg-center w-100"
+                                href="">
+                                <img loading="lazy" class="img-fluid "
+                                    src="https://cdn.dooca.store/205/files/frete-1.svg?v=1580931617" alt="frete-1">
+                                <div class="text-lg-left ml-lg-4">
+                                    <h4 style="color: #7fff00;">COMPRE NO SITE</h4>
+                                    <p class="text m-0">e retire na loja</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </header>
 
     <header class="container-fluid text-center p-4 g-0 " id="produtos">
@@ -191,7 +212,7 @@
 
                             </div>
                             <div>
-                                <div class="d-inline-flex mt-3 m-0 mx-0">
+                                <div class=" d-inline-flex mt-3 m-0 mx-0">
                                     <a href="#" class="btn btn-danger me-2 " data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar com desconto</a>
                                     <a href="#" class="btn btn-primary ms-2 " data-bs-toggle="modal"
