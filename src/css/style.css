@@ -29,7 +29,7 @@ span {
 #menu {
     background-color: rgba(0,
             18,
-            32, 0.2) !important;
+            32, 0.8) !important;
     padding: 1.5rem 1rem;
     transition: all 500ms linear;
 }
@@ -37,6 +37,11 @@ span {
 #menu.ativo {
     background-color: rgba(0, 18, 32, 0.99) !important;
     padding: .5rem 1rem;
+    margin-top: 0px;
+}
+
+#pesquisa {
+    transition: all 500ms linear;
 }
 
 #pesquisa.ativo {
