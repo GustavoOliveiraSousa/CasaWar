@@ -1193,8 +1193,8 @@ ol {
     }
 }
 
-@media screen and (min-width: 378px) and (max-width: 400px) {
 
+@media screen and (min-width: 377px) and (max-width: 400px) {
 
     .borda:hover {
         border: #ff7301 3px solid;
@@ -1214,7 +1214,7 @@ ol {
     }
 
     html {
-        font-size: 7.5rem;
+        font-size: 7rem;
         width: 100% !important;
     }
 
@@ -1245,7 +1245,7 @@ ol {
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 120vw;
+        width: 125vw;
     }
 
     /* Icones de confiança*/
@@ -1281,7 +1281,7 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 210vh;
+        min-height: 300vw;
     }
 
 
@@ -1303,7 +1303,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 500vh;
+        min-height: 650vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1313,12 +1313,12 @@ ol {
 
     /* distancia entre os icones e o cargo do colaborador Gustavo */
     .card-body .margem-iconesG {
-        margin-top: 300px;
+        margin-top: 0px;
     }
 
     /* margem entre o nome do colaborador William com sua descrição */
     .card-body .espaco-colaboradoresW {
-        margin-bottom: -10px;
+        margin-bottom: 10px;
     }
 
     /* distancia entre os icones e o cargo do colaborador William */
@@ -1333,7 +1333,7 @@ ol {
 
     /* distancia entre os icones e o cargo da colaboradora Fabiola */
     .card-body .margem-iconesF {
-        margin-top: 300px;
+        margin-top: 0px;
     }
 
     /* margem entre o nome da colaboradora Lorena com sua descrição */
@@ -1348,20 +1348,20 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50vh;
+        width: 75vw;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 200px;
+        width: 75vw;
     }
 
     .logo {
-        width: 350px;
+        width: 80vw;
     }
 }
 
-@media screen and (min-width: 374px) and (max-width: 377px) {
+@media screen and (min-width: 375px) and (max-width: 376px) {
 
     .borda:hover {
         border: #ff7301 3px solid;
@@ -1381,7 +1381,7 @@ ol {
     }
 
     html {
-        font-size: 7.5rem;
+        font-size: 7rem;
         width: 100% !important;
     }
 
@@ -1412,7 +1412,7 @@ ol {
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 80vh;
+        width: 125vw;
     }
 
     /* Icones de confiança*/
@@ -1448,7 +1448,7 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 210vh;
+        min-height: 300vw;
     }
 
 
@@ -1470,7 +1470,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 550vh;
+        min-height: 650vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1485,7 +1485,7 @@ ol {
 
     /* margem entre o nome do colaborador William com sua descrição */
     .card-body .espaco-colaboradoresW {
-        margin-bottom: -10px;
+        margin-bottom: 10px;
     }
 
     /* distancia entre os icones e o cargo do colaborador William */
@@ -1500,7 +1500,7 @@ ol {
 
     /* distancia entre os icones e o cargo da colaboradora Fabiola */
     .card-body .margem-iconesF {
-        margin-top: 300px;
+        margin-top: 30px;
     }
 
     /* margem entre o nome da colaboradora Lorena com sua descrição */
@@ -1515,16 +1515,16 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50vh;
+        width: 75vw;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 200px;
+        width: 75vw;
     }
 
     .logo {
-        width: 350px;
+        width: 80vw;
     }
 }
 
