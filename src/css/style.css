@@ -1902,7 +1902,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 325px) {
+@media screen and (min-width: 312px) and (max-width: 325px) {
 
 
     .borda:hover {
@@ -1924,7 +1924,7 @@ ol {
 
     html {
         font-size: 6rem;
-        width: 100% !important;
+        width: 101% !important;
     }
 
     body {
@@ -1950,12 +1950,12 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 800px;
+        margin-top: 200vw;
     }
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 60vh;
+        width: 125vw;
     }
 
 
@@ -2005,7 +2005,7 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 185vh;
+        min-height: 300vw;
     }
 
     /* imagem do lado do texto */
@@ -2015,7 +2015,7 @@ ol {
 
     /* icones de missão, visão e valores */
     .col-4 .icone-quem-somos {
-        width: 50%;
+        width: 40%;
     }
 
     /* altura de todos os cards */
@@ -2031,7 +2031,194 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 400vh;
+        min-height: 710vw;
+    }
+
+    /* margem entre o nome do colaborador Gustavo com sua descrição */
+    .card-body .espaco-colaboradoresG {
+        margin-bottom: 50px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador Gustavo */
+    .card-body .margem-iconesG {
+        margin-bottom: 0px;
+    }
+
+    /* margem entre o nome do colaborador William com sua descrição */
+    .card-body .espaco-colaboradoresW {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo do colaborador William */
+    .card-body .margem-iconesW {
+        margin-top: 0px;
+    }
+
+    /* margem entre o nome da colaboradora Fabiola com sua descrição */
+    .card-body .espaco-colaboradoresF {
+        margin-bottom: 10px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Fabiola */
+    .card-body .margem-iconesF {
+        margin-bottom: 0px;
+    }
+
+    /* margem entre o nome da colaboradora Lorena com sua descrição */
+    .card-body .espaco-colaboradoresL {
+        margin-bottom: 50px;
+    }
+
+    /* distancia entre os icones e o cargo da colaboradora Lorena */
+    .card-body .margem-iconesL {
+        margin-bottom: 0px;
+    }
+
+    /* redes sociais do colaborador */
+    .card-footer div a img {
+        width: 100vw;
+    }
+
+    /* redes sociais da empresa */
+    .social-inner img {
+        width: 75vw;
+    }
+
+    .logo {
+        width: 85vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 311px) {
+
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
+
+    html {
+        font-size: 6rem;
+        width: 101% !important;
+    }
+
+    body {
+        zoom: 0.1;
+    }
+
+    p,
+    span,
+    s,
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    /* Nome Casa War e o arsenal do gamer */
+    div div h6 {
+        font-size: 1.2rem;
+    }
+
+
+    /* .d-inline-block h6 {
+        display: none;
+    } */
+
+    /* margem entre o body da navbar */
+    header .margem-nav {
+        margin-top: 200vw;
+    }
+
+    /* largura do botão de pesquisa */
+    span .btn-pesquisa {
+        width: 125vw;
+    }
+
+
+    /* Icones de confiança*/
+    .w-100 .img-fluid {
+        width: 25%;
+    }
+
+    /* imagem do cartão de crédito produto */
+    /* .body-card>div.d-flex.justify-content-center.me-5 img {
+            display: none;
+        } */
+
+    /*  resto do texto do produto  */
+    /* .body-card>div.d-flex.justify-content-center.me-5 div.ms-1 span {
+            display: none;
+        } */
+
+    /* texto laranja na promoção produtos */
+
+    /* Fonte do botão de comprar */
+    .d-block.mt-3.m-0.mx-0>a {
+        font-size: 1.2rem;
+    }
+
+
+    /* texto laranja na promoção produtos */
+    div div .negrito {
+        font-size: 1.5rem;
+    }
+
+
+    /* valor do produto em verde  */
+    div div .precoMais {
+        font-size: 1.2rem;
+    }
+
+    /* preços a partir de mil reais */
+    .preco-mil {
+        font-size: 18px;
+    }
+
+    /* texto a mais dos produtos */
+    /* .d-none-sm {
+        display: none;
+    } */
+
+    /* altura da caixa de texto dos produtos */
+    .card-body .margem-produto {
+        min-height: 350vw;
+    }
+
+    /* imagem do lado do texto */
+    .img-sobre-nos {
+        width: 100%;
+    }
+
+    /* icones de missão, visão e valores */
+    .col-4 .icone-quem-somos {
+        width: 40%;
+    }
+
+    /* altura de todos os cards */
+    /* .row .card-body {
+        min-height: 150px;
+        justify-content: center;
+    } */
+
+    /* frase com o cargo do colaborador */
+    .card-body .card-subtitle {
+        margin-top: 0px;
+    }
+
+    /* descrição dos colaboradores */
+    .card-body .justify {
+        min-height: 800vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -2076,16 +2263,16 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50vh;
+        width: 100vw;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 100px;
+        width: 75vw;
     }
 
     .logo {
-        width: 100px;
+        width: 85vw;
     }
 }
 
