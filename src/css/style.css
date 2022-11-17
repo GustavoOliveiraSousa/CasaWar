@@ -2110,7 +2110,7 @@ ol {
     }
 
     html {
-        font-size: 6rem;
+        font-size: 4.5rem;
         width: 100% !important;
     }
 
@@ -2142,7 +2142,7 @@ ol {
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 60vh;
+        width: 150vW;
     }
 
 
@@ -2192,7 +2192,7 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 185vh;
+        min-height: 275vw;
     }
 
     /* imagem do lado do texto */
@@ -2218,7 +2218,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 400vh;
+        min-height: 600vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -2228,7 +2228,7 @@ ol {
 
     /* distancia entre os icones e o cargo do colaborador Gustavo */
     .card-body .margem-iconesG {
-        margin-bottom: 180px;
+        margin-bottom: 0px;
     }
 
     /* margem entre o nome do colaborador William com sua descrição */
@@ -2248,7 +2248,7 @@ ol {
 
     /* distancia entre os icones e o cargo da colaboradora Fabiola */
     .card-body .margem-iconesF {
-        margin-bottom: 100px;
+        margin-bottom: 0px;
     }
 
     /* margem entre o nome da colaboradora Lorena com sua descrição */
@@ -2263,15 +2263,15 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50vh;
+        width: 100vW;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 100px;
+        width: 75VW;
     }
 
     .logo {
-        width: 100px;
+        width: 100vw;
     }
 }
