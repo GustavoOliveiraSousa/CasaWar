@@ -1107,7 +1107,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 .borda:hover {
         border: #ff7301 3px solid;
@@ -1280,7 +1280,7 @@ ol {
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
 
      .borda:hover {
         border: #ff7301 3px solid;
