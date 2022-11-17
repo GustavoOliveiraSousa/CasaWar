@@ -1195,6 +1195,24 @@ ol {
 
 @media screen and (min-width: 378px) and (max-width: 400px) {
 
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
+
     html {
         font-size: 7.5rem;
         width: 100% !important;
@@ -1227,7 +1245,7 @@ ol {
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 80vh;
+        width: 80vw;
     }
 
     /* Icones de confiança*/
@@ -1344,6 +1362,23 @@ ol {
 }
 
 @media screen and (min-width: 374px) and (max-width: 377px) {
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
 
     html {
         font-size: 7.5rem;
@@ -1494,6 +1529,24 @@ ol {
 }
 
 @media screen and (min-width: 338px) and (max-width: 374px) {
+
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
 
     html {
         font-size: 6rem;
@@ -1664,6 +1717,24 @@ ol {
 
 @media screen and (min-width: 326px) and (max-width: 337px) {
 
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
+
     html {
         font-size: 6rem;
         width: 100% !important;
@@ -1833,6 +1904,24 @@ ol {
 
 @media screen and (min-width: 300px) and (max-width: 325px) {
 
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
+
     html {
         font-size: 6rem;
         width: 100% !important;
@@ -2000,7 +2089,25 @@ ol {
     }
 }
 
-@media screen and (min-width: 250px) and (max-width: 300px) {
+@media screen and (max-width: 299px) {
+
+
+    .borda:hover {
+        border: #ff7301 3px solid;
+        border-radius: 75px;
+        box-shadow: inset 0 0 25px #ff7301, 0 0 50px 0 #ff7301;
+        transform: scale(1.01);
+        font-size: 75.5px;
+        transition: all 500ms linear;
+    }
+
+    .col .borda .card {
+        border-radius: 75px;
+    }
+
+    .borda-imagem {
+        border-radius: 75px;
+    }
 
     html {
         font-size: 6rem;
@@ -2015,7 +2122,7 @@ ol {
     span,
     s,
     h6 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /* Nome Casa War e o arsenal do gamer */
@@ -2038,25 +2145,27 @@ ol {
         width: 60vh;
     }
 
-    /* Icones de confiança */
+
+    /* Icones de confiança*/
     .w-100 .img-fluid {
         width: 25%;
     }
 
-
     /* imagem do cartão de crédito produto */
     /* .body-card>div.d-flex.justify-content-center.me-5 img {
-        display: none;
-    } */
+            display: none;
+        } */
 
     /*  resto do texto do produto  */
     /* .body-card>div.d-flex.justify-content-center.me-5 div.ms-1 span {
-        display: none;
-    } */
+            display: none;
+        } */
+
+    /* texto laranja na promoção produtos */
 
     /* Fonte do botão de comprar */
     .d-block.mt-3.m-0.mx-0>a {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
 
@@ -2067,13 +2176,13 @@ ol {
 
 
     /* valor do produto em verde  */
-    /* div div .precoMais {
+    div div .precoMais {
         font-size: 1.2rem;
-    } */
+    }
 
     /* preços a partir de mil reais */
     .preco-mil {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     /* texto a mais dos produtos */
@@ -2083,9 +2192,8 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 250vh;
+        min-height: 185vh;
     }
-
 
     /* imagem do lado do texto */
     .img-sobre-nos {
@@ -2094,17 +2202,17 @@ ol {
 
     /* icones de missão, visão e valores */
     .col-4 .icone-quem-somos {
-        width: 40%;
+        width: 50%;
     }
 
     /* altura de todos os cards */
-    .row .card-body {
+    /* .row .card-body {
         min-height: 150px;
         justify-content: center;
-    }
+    } */
 
     /* frase com o cargo do colaborador */
-    .card .card-body .card-subtitle {
+    .card-body .card-subtitle {
         margin-top: 0px;
     }
 
@@ -2120,7 +2228,7 @@ ol {
 
     /* distancia entre os icones e o cargo do colaborador Gustavo */
     .card-body .margem-iconesG {
-        margin-top: 0px;
+        margin-bottom: 180px;
     }
 
     /* margem entre o nome do colaborador William com sua descrição */
@@ -2140,7 +2248,7 @@ ol {
 
     /* distancia entre os icones e o cargo da colaboradora Fabiola */
     .card-body .margem-iconesF {
-        margin-bottom: 0px;
+        margin-bottom: 100px;
     }
 
     /* margem entre o nome da colaboradora Lorena com sua descrição */
@@ -2155,7 +2263,7 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 100px;
+        width: 50vh;
     }
 
     /* redes sociais da empresa */
