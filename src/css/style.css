@@ -1581,7 +1581,7 @@ ol {
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 60vh;
+        width: 115vw;
     }
 
 
@@ -1631,7 +1631,7 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 185vh;
+        min-height: 275vw;
     }
 
     /* imagem do lado do texto */
@@ -1657,7 +1657,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 200vh;
+        min-height: 500vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -1702,16 +1702,16 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 50vh;
+        width: 75vw;
     }
 
     /* redes sociais da empresa */
     .social-inner img {
-        width: 40vh;
+        width: 75vw;
     }
 
     .logo {
-        width: 50vh;
+        width: 75vw;
     }
 }
 
