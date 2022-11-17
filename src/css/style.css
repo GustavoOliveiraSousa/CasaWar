@@ -689,7 +689,7 @@ ol {
 
 
     html {
-        font-size: 7rem;
+        font-size: 9rem;
         width: 100% !important;
     }
 
@@ -715,12 +715,12 @@ ol {
 
     /* margem entre o body da navbar */
     header .margem-nav {
-        margin-top: 150vw;
+        margin-top: 100vw;
     }
 
     /* largura do botão de pesquisa */
     span .btn-pesquisa {
-        width: 450px;
+        width: 600px;
     }
 
 
@@ -762,17 +762,17 @@ ol {
 
     /* altura da caixa de texto dos produtos */
     .card-body .margem-produto {
-        min-height: 100vw;
+        min-height: 75vw;
     }
 
     /* imagem do lado do texto */
     .img-sobre-nos {
-        width: 75%;
+        width: 60%;
     }
 
     /* icones de missão, visão e valores */
     .col-4 .icone-quem-somos {
-        width: 100vw;
+        width: 80vw;
     }
 
 
@@ -783,7 +783,7 @@ ol {
 
     /* descrição dos colaboradores */
     .card-body .justify {
-        min-height: 250vw;
+        min-height: 100vw;
     }
 
     /* margem entre o nome do colaborador Gustavo com sua descrição */
@@ -828,7 +828,7 @@ ol {
 
     /* redes sociais do colaborador */
     .card-footer div a img {
-        width: 60vw;
+        width: 50vw;
     }
 
     /* redes sociais da empresa */
@@ -837,7 +837,7 @@ ol {
     }
 
     .logo {
-        width: 300px;
+        width: 400px;
     }
 }
 
