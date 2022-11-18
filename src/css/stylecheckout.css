@@ -1,9 +1,12 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    background-image: url("../../assets/img/background/waves.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
 }
-
-
 
 s,
 a,
@@ -15,22 +18,154 @@ h4,
 h5,
 h6,
 span,
-label {
+label,
+small {
     color: white;
 }
 
-
 span {
-    font-size: small;
+    font-size: medium;
 }
 
-.bg-image {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    position: fixed;
-    width: 115%;
-    height: 115%;
-    transform: translate(-25px, -25px);
+#menu {
+    background-color: rgba(0,
+            18,
+            32, 0.8) !important;
+    padding: 1.5rem 1rem;
+    transition: all 500ms linear;
+}
+
+#menu.ativo {
+    background-color: rgba(0, 18, 32, 0.99) !important;
+    padding: .5rem 1rem;
+    margin-top: 0px;
+}
+
+
+body .margem-nav {
+    margin-top: 50px;
+}
+
+
+.navbar-nav>.nav-item>a {
+    color: white;
+}
+
+.neon {
+    line-height: 2;
+    color: #ff7301;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+.neon-white {
+    line-height: 2;
+    color: #fcfcfc;
+    animation: neon-white 3s ease-in-out infinite alternate;
+}
+
+.blur {
+    background-color: #001220;
+    opacity: 100%;
+    box-shadow: 5px 5px 5px #ff7301;
+}
+
+
+.justify {
+    text-align: justify;
+}
+
+.inversor {
+    filter: invert(100%);
+}
+
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #ff7301,
+            0 0 40px #f43f00,
+            0 0 55px #ff5101;
+    }
+}
+
+@keyframes neon-white {
+    from {
+        text-shadow: 0 0 35px white,
+            0 0 40px whitesmoke,
+            0 0 55px wheat;
+    }
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ff7301;
+    border-radius: 20px;
+    border: 3px solid #f24f00;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
 }
 
 .topper {
@@ -44,11 +179,6 @@ span {
     animation: neon-white 2s ease-in-out infinite alternate;
 }
 
-.blur {
-    background-color: #001220;
-    opacity: 99%;
-    box-shadow: 5px 5px 5px #ff7301;
-}
 
 .inversor {
     filter: invert(100%);
@@ -73,12 +203,4 @@ span {
     background-color: #ff7301;
     border-radius: 20px;
     border: 3px solid #f24f00;
-}
-
-@keyframes neon-white {
-    from {
-        text-shadow: 0 0 35px white,
-            0 0 40px whitesmoke,
-            0 0 55px wheat;
-    }
 }
